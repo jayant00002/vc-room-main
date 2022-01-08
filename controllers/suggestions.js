@@ -4,8 +4,10 @@ const { getFriendsOfTheUser } = require("../utils/getFriendsOfTheUser");
 const { validateUser } = require("../utils/validateUser");
 
 exports.getSuggestions = async (req, res) => {
+  console.log("ravi");
   try {
     let { uid } = validateUser(req);
+    console.log(uid);
     let friends = await getFriendsOfTheUser(uid);
     let suggestions = [];
 

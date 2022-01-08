@@ -68,7 +68,7 @@ const SuggestionsContainer = () => {
   const classes = useStyles();
 
   const { data, isError, isLoading, refetch } = useGetSuggestionsQuery();
-
+  console.log(useGetSuggestionsQuery());
   useEffect(() => {
     if (isError) {
       toast.error("Error Fetching Suggestions!!");
