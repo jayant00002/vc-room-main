@@ -225,7 +225,7 @@ const HomePage = () => {
       </div>
       <div className={classes.footer}>
         <Typography variant="body1" color="textSecondary">
-          Made With ❤️ by Nikhil Gupta 
+          Made With ❤️ by Komal Yadav
         </Typography>
         <div className={classes.footerLinks}>
           <div>
@@ -317,7 +317,7 @@ const HomePage = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Nikhil Gupta
+                Komal Yadav
               </a>
               .
             </p>
