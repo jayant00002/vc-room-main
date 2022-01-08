@@ -2,9 +2,7 @@
 
 A video call application made with [React.js](https://reactjs.org/) + [Firebase](https://firebase.google.com/) + [WebRTC](https://webrtc.org/).
 
-![GitHub last commit](https://img.shields.io/github/last-commit/theninza/vc-room?style=for-the-badge)&nbsp;
-![GitHub issues](https://img.shields.io/github/issues/theninza/vc-room?style=for-the-badge)&nbsp;
-![GitHub repo size](https://img.shields.io/github/repo-size/theninza/vc-room?style=for-the-badge)
+
 
 ## Tech-Stack
 
@@ -49,7 +47,7 @@ A video call application made with [React.js](https://reactjs.org/) + [Firebase]
 1. Install the dependencies and devDependencies and start the server.
 
 ```sh
-git clone https://github.com/TheNinza/vc-room.git
+git clone https://github.com/komal-yadav2048/vc-room-main.git
 
 cd vc-room
 npm install

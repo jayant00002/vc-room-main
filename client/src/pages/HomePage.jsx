@@ -225,12 +225,12 @@ const HomePage = () => {
       </div>
       <div className={classes.footer}>
         <Typography variant="body1" color="textSecondary">
-          Made With ❤️ by Komal Yadav
+          Made With ❤️ by Komal Yadav 
         </Typography>
         <div className={classes.footerLinks}>
           <div>
             <a
-              href="https://github.com/theninza"
+              href="https://github.com/komal-yadav2048"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -253,7 +253,7 @@ const HomePage = () => {
           </div>
           <div>
             <a
-              href="https://www.linkedin.com/in/theninza/"
+              href="https://www.linkedin.com/in/komalyyadav/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -277,7 +277,7 @@ const HomePage = () => {
 
           <div>
             <a
-              href="https://theninza.me/"
+              href="https://www.linkedin.com/in/komalyyadav/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -313,7 +313,7 @@ const HomePage = () => {
             <p>
               This website is a personal project of{" "}
               <a
-                href="https://linkedin.com/in/theninza"
+                href="https://www.linkedin.com/in/komalyyadav/"
                 target="_blank"
                 rel="noopener noreferrer"
               >

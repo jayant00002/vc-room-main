@@ -169,7 +169,7 @@ const Navbar = (props) => {
                 color="secondary"
                 variant="outlined"
                 onClick={() => {
-                  window.open("https://github.com/theninza/vc-room");
+                  window.open("https://github.com/komal-yadav2048");
                 }}
               >
                 Learn More
