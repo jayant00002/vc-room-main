@@ -15,8 +15,10 @@ const app = express();
 // middlewares
 
 app.use(
-  cors(
-    
+   cors(
+     {
+     origin: FRONT_END,
+   }
   )
 );
 
@@ -34,7 +36,7 @@ app.use(morgan("dev"));
 
 // endpoints
 app.get("/", (_req, res) => {
-  res.redirect(FRONT_END);
+  res.sendFile(__dirname+'/build/index.html');
 });
 
 app.get("/api/ping", (_req, res) => {
@@ -50,7 +52,7 @@ app.use("/api/payments", require("./routes/payments.js"));
 
 // listner
 const port = process.env.PORT || 8000;
-
+app.use(express.static('./build'))
 const server = app.listen(port, () => {
   console.log(`Hello from port ${port} @ ${new Date().toLocaleString()}`);
 });
