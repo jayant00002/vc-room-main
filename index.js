@@ -15,9 +15,9 @@ const app = express();
 // middlewares
 
 app.use(
-  cors({
-    origin: FRONT_END,
-  })
+  cors(
+    
+  )
 );
 
 // setting rawBody for webhook handling
