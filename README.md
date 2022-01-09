@@ -3,7 +3,6 @@
 A video call application made with [React.js](https://reactjs.org/) + [Firebase](https://firebase.google.com/) + [WebRTC](https://webrtc.org/).
 
 
-
 ## Tech-Stack
 
 ![React](https://img.shields.io/badge/React-05122A?style=for-the-badge&logo=react)&nbsp;

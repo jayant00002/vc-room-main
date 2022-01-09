@@ -23,7 +23,7 @@
   "bugs": {
     "url": "https://github.com/komal-yadav2048/vc-room-main/issues"
   },
-  "homepage": "https://github.com/komal-yadav2048/vc-room-main#readme",
+  "homepage": "https://github.com/komal-yadav2048/vc-room-main/vc-room#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^10.0.0",
