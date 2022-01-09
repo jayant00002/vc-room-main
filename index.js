@@ -16,9 +16,9 @@ const app = express();
 
 app.use(
   cors(
-     {
-       origin: FRONT_END,
-     }
+    //  {
+    //    origin: FRONT_END,
+    //  }
   )
 );
 
