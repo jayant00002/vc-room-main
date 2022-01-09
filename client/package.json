@@ -64,5 +64,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "https://localhost:8000/"
+  "proxy": "https://vc-room.herokuapp.com/"
 }
