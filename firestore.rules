@@ -122,8 +122,8 @@ service cloud.firestore {
       	let isUserAuthenticated = currentUser != null;
         let currentUserAccount = getAfter(/databases/$(database)/documents/accounts/$(accountId));
         let isCurrentUserAccount = currentUserAccount.data.uid == currentUser;
-        // check if credits are strictly 2000 in number
-        let isCurrentUserAccountCreditsStrictly2 = currentUserAccount.data.credits == 2000;
+        // check if credits are strictly 50 in number
+        let isCurrentUserAccountCreditsStrictly2 = currentUserAccount.data.credits == 50;
         return isUserAuthenticated && isCurrentUserAccount && isCurrentUserAccountCreditsStrictly2;
       }
 

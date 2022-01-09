@@ -53,7 +53,7 @@ export const getUserDataFromUserAuth = async (user) => {
     const accountsRef = firestore.collection("accounts").doc(user.uid);
     batch.set(accountsRef, {
       uid: user.uid,
-      credits: 2000,
+      credits: 50,
     });
 
     await batch.commit();
