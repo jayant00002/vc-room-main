@@ -46,7 +46,7 @@ A video call application made with [React.js](https://reactjs.org/) + [Firebase]
 1. Install the dependencies and devDependencies and start the server.
 
 ```sh
-git clone https://github.com/komal-yadav2048/vc-room-main.git
+
 
 cd vc-room
 npm install

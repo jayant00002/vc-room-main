@@ -15,15 +15,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/komal-yadav2048/vc-room-main.git"
+    "url": "git+https://github.com/"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/komal-yadav2048/vc-room-main/issues"
+    "url": "https://github.com"
   },
-  "homepage": "https://github.com/komal-yadav2048/vc-room-main/vc-room#readme",
+  "homepage": "https://github.com/",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^10.0.0",

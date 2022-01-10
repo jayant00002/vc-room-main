@@ -225,12 +225,12 @@ const HomePage = () => {
       </div>
       <div className={classes.footer}>
         <Typography variant="body1" color="textSecondary">
-          Made With ❤️ by Komal Yadav
+          Made With ❤️ by Jayant Chaudhary
         </Typography>
         <div className={classes.footerLinks}>
           <div>
             <a
-              href="https://github.com/komal-yadav2048"
+              href="https://github.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -253,7 +253,7 @@ const HomePage = () => {
           </div>
           <div>
             <a
-              href="https://www.linkedin.com/in/komalyyadav/"
+              href="https://www.linkedin.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -277,7 +277,7 @@ const HomePage = () => {
 
           <div>
             <a
-              href="https://www.linkedin.com/in/komalyyadav/"
+              href="https://www.linkedin.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -313,11 +313,11 @@ const HomePage = () => {
             <p>
               This website is a personal project of{" "}
               <a
-                href="https://www.linkedin.com/in/komalyyadav/"
+                href="https://www.linkedin.com/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Komal Yadav
+                Jayant Chaudhary
               </a>
               .
             </p>
